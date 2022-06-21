@@ -1,0 +1,14 @@
+
+
+
+8 microservices
+5 pipelines
+5 Branches
+
+((( https://nvie.com/posts/a-successful-git-branching-model/ )))
+
+DEV--Built unit test
+DEV--nightly-(Cronjob)-functional test
+Release--weekly-(Cronjob)-manuel test
+Release--weekly-staging-(Cronjob)-rancher cluster orchestration tools
+Master--prod-

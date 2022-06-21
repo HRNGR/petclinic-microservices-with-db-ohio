@@ -1,0 +1,86 @@
+{
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "linux": "linux",
+        "my-instance": "linux",
+        "Terraform": "linux",
+        "Docker": "linux",
+        "Kube": "linux",
+        "Kube_Master": "linux",
+        "EKS": "linux",
+        "Ansible": "linux",
+        "AWS-EC2": "linux",
+        "AWS-EC2-UBUNTU-Master": "linux",
+        "AWS-EC2-UBUNTU-Worker": "linux",
+        "petclinicDT-dev-server": "linux",
+        "petclinicDT-dev-server-ohio": "linux"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "git.enableSmartCommit": true,
+    "gitlens.defaultDateFormat": null,
+    "json.schemas": [],
+    "editor.renderWhitespace": "all",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\gurha\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\gurha\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\gurha\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1
+}
