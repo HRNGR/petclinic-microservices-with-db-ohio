@@ -1,6 +1,6 @@
 PATH="$PATH:/usr/local/bin"
 APP_REPO_NAME="clarusway-repo/petclinic-app-dev"
-AWS_REGION="us-east-1"
+AWS_REGION="us-east-2"
 
 aws ecr create-repository \
   --repository-name ${APP_REPO_NAME} \
